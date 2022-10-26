@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- End Bootstrap CSS -->
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="style.css">
+    <!--End Custom Css-->
+</head>
+
+<body>
+
+   
+    
+    <header>
+         <section id="topbar" class="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 bg-primary text-white topbar-transparent">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6   text-start">
+             <a href="index.html"><img src="https://sirajulhuda.com/source/logo2.png" alt=""></a>
+            </div>
+            <div class="col-md-6 text-end">
+                <a href="https://www.facebook.com/sirajulhuda.Dawah" class="me-4 text-reset">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/sirajul_huda_edu/?hl=en" class="me-4 text-reset">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+    </header>
+    <!--Header End-->
+
+
+    <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="home1.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Sirajul Huda Educational Complex</h5>
+                    <p>Feel the future 
+                        of learning 
+                        with Sirajul Huda.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="home2.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Sirajul Huda </h5>
+                    <p>All candidates are provided sufficient training in acquiring different skills by using the language lab which will have hundreds of books CDs, and innovative gadgets, videos audios, and electronic equipments. Browsing facilities and e-journals are also given to the learners so that they can get the latest update in the field of education and higher studies.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid w-100 h-100 overflow-hidden"
+                    src="home3.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <h5>Sirajul Huda </h5>
+                    <p>School, College inter Fests and Cultural Competitions , Youth Parliaments, Talents’Search Competitions , History Seminars , and Art Gallery, etc. are organized in order to explore the hidden talents of the youngsters.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about mt-5">
+            <div class="container-fluid">
+                <h2 class="h1-responsive font-weight-bold text-center my-2">About</h2>
+                <!--Section description-->
+                <h2 >Sirajul Huda Educational Complex</h2>
+                <p class="text-center w-responsive mx-auto mb-1">Sirajul Huda is concieved upon the long running aim of fostering the responsible, law abiding and developmental citizens who can contribute in nation building and keep the sustainable development of this planet intact. Sirajul Huda is committed in reaching out to the marginalized community and it has sophisticated mechanism to do the charity activities among such folks. It believes in the power of elementary and secondary education in the upliftment of the sidelined societies. Thus, it has opened a number of schools which are investing great effort to cater to the educational needs of various geographies. It is also running many senior secondary and bachelor level institutions where the students from poverty stricken backward classes are educated free of charge.</p>
+                <div class="row  pt-5 pb-5">
+
+                    <div class="col-lg-5 align-items-stretch video-box"
+                        style='background-image: url("VIDEO.jpg");'>
+                        <a href="https://www.youtube.com/watch?v=gKwaui-q5eU&ab_channel=SIRAJULHUDA" class="venobox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                        <div class="content">
+                            <h3><strong>SIRAJUL HUDA Educational Complex</strong></h3>
+                            <p>
+                                Established in the lap of nature with enchanting beauty of Wayanad valley, this educational hub has attracted a large number of pupils from different parts of Kerala and outside for getting updated with the multidimensional skills of learning in different realms of education, culture and moral upbringing. The peace, serenity and tranquil ambience of the campus and allied institutions reflect the relevance of the fusion of moral and secular education under the charismatic leaders, scholars and intellectuals of the community.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <section id="courses">
+            <div class="container course pb-5 pt-5">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Courses</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                    contact us directly. Our team will come back to you within
+                    a matter of hours to help you.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="arabic.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Collage of Arabic Studies</h5>
+                                <p class="card-text">To create a bunch of dedicated scholars who stands out by erudition in the traditional liberal arts and Arabic language studies. Thus they will be equipped to take responsibility of the multi-faceted affairs of the community and the nation. This unique model of moral education aims at preserving the traditional knowledge.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="intergrated.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Collage of Intergrated Studies</h5>
+                                <p class="card-text">This is an integrated bachelor course of seven years which consists of two year senior secondary schooling and five years bachelors. First two years, regarding modern education, students are provided with senior schooling level general education followed by the three years bachelors and two years masters in higher education. This course follows syllabus of University of Calicut. Students are stimulated and made capable for pursuing research of transdisciplinary nature in various leading universities of this country and abroad.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="science.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Collage of Arts & Science </h5>
+                                <p class="card-text">This is the novel step in the education and service sector. By this institution Sirajul Huda aims at producing professionals and the teachers needed in the developmental sectors of our nation. Sirajul Huda has the effective methodology to social commitment, national spirit and ethical boundedness, which helps develop dedicated and honest workforce. Filling the bureaucracy with the candidates of highest social commitment can reduce or erase the menace of corruption.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Gallery</h2>
+            
+                <!-- Gallery -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="img1.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+                        <img src="img2.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="img7.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+                        <img src="img5.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="img3.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                        <img src="img4.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container mb-5">
+                <!--Section: Contact v.2-->
+                <section class="mb-4">
+
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                    <!--Section description-->
+                    <p class="text-center w-responsive mx-auto mb-5">If you have any questions or queries a member of staff will always be happy to help. Feel free to.</p>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" >
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Subject</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6 text-center">
+                            <iframe
+                                src="https://maps.google.com/maps?width=720&height=300&hl=en&q=Sirajul%20huda%20educational%20complex%20kuttiyadi+(Sirajul%20Huda)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                                width="600" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-primary py-3 text-white">
+          
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                
+                                    <img src="https://sirajulhuda.com/source/logo2.png" alt="">
+                                
+                            </h6>
+                            
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="bi bi-location me-3"></i>Sirajul Huda Educational Complex, Kuttiadi (P.O.), Kuttiadi, Kozhikkode - 673 508</p>
+                            <p>
+                                <i class="bi bi-envelope me-3"></i><a href="info@sirajulhuda.com">info@sirajulhuda.com</a>
+                            </p>
+                            <p><i class="bi bi-phone me-3"></i><a href="tel:9645108786">9645108786</a> </p>
+                            
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            
+        </footer>
+        <!-- Footer -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
